@@ -1,0 +1,31 @@
+.add{
+    border-radius: 48px;
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    width: 600px;
+    
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 0 auto;
+    align-items: baseline;
+    padding: 10px 10px;
+    svg{
+        width: 60px;
+        height: 60px;
+    }
+    
+    input{
+        margin-left: 20px;
+        color: #111;
+        background: none;
+        margin-top: 25px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        height: 100%;
+        width: 100%;
+        border: none;
+    }
+}

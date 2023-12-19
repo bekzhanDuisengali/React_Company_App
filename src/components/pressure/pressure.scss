@@ -1,0 +1,20 @@
+.pressure-card{
+    display: flex;
+    background: rgba(0, 0, 0, 0.2);
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 48px;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+    height: 157px;
+    h1{
+        margin-top: 30px;
+        color: #fff;
+    }
+    h2{
+        margin-top: 15px;
+        color: #fff;
+    }
+}

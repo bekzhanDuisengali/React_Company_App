@@ -1,0 +1,37 @@
+.header{
+    height: 92px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.19);
+    padding: 24px 83px 22px 76px;
+    display: flex;
+    justify-content: space-between;
+    &__left-side{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__info{
+            color: #FFF;
+        
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    
+        a{
+            text-decoration: none;
+            outline: none;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+    
+}

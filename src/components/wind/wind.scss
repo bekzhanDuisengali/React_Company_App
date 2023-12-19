@@ -1,0 +1,23 @@
+.wind-card{
+    padding: 18px 15px;
+    border-radius: 48px;
+    width: 500px;
+    height: 343px;
+    background: rgba(0, 0, 0, 0.2) url('./lightning-9075_512.gif')center center no-repeat;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    &__wind,&__winddeg{
+        color: #111;
+        font-size: 30px;
+        color: #fff;
+    }
+    img{
+        width: 200px;
+        height: 227px;
+    }
+}

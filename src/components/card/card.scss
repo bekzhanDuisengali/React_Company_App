@@ -1,0 +1,86 @@
+.card-weather{
+    border-radius: 48px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(16px);
+    width: 490px;
+    height: 575px;
+    display: block;
+    margin: 80px auto 0 auto;
+    padding: 47px 40px 55px 40px;
+}
+.top-side{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__city-name{
+        color: #FFF;
+        
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    &__city-date{
+        color: #FFF;
+        
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.center-side{
+    display: flex;
+    align-items: flex-start;
+    width: 200px;
+    margin: 80px auto 0 auto;
+    justify-content: space-around;
+    &__degree-number{
+        color: #FFF;
+        font-size: 144px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        display: flex;
+        width: 131px;
+        height: 160px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        
+    }
+    &__degree{
+        
+        color: #FFF;
+        
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+}
+.bottom-side{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 68px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    &__up-info{
+        display: flex;
+        justify-content: space-between;
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: 21px;
+        }
+        svg{
+            width: 62px;
+            height: 90px;
+            margin-right: 6px;
+        }        
+    }
+}

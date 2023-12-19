@@ -1,0 +1,12 @@
+.block-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.outside{
+    font-size: 60px;
+    margin-top: 80px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
