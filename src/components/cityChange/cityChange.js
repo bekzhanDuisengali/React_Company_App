@@ -37,7 +37,7 @@ class CityChange extends Component {
                     <form onSubmit={this.handleSubmit} className='add__form'>
                         <input
                             type="text"
-                            placeholder='press option and start search'
+                            placeholder='start search'
                             onChange={this.onValueChange}
                             value={this.state.city}
                         />
