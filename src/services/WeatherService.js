@@ -18,12 +18,12 @@ class WeatherService{
     }
 
     getCityResourse = (city) =>{
-        return this.getResourse(`https://api.openweathermap.org/data/2.5/weather?q=${city}&limit=5&appid=${this._apiKey}`); 
+        return this.getResourse(`https://api.openweathermap.org/data/2.5/weather?q=${city}&limit=5&appid=${this._apiKey2}`); 
         
     }
     
     getWeekResourses = (city) =>{
-        return this.getResourse (`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${this._apiKey}`);
+        return this.getResourse (`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${this._apiKey2}`);
         
     }
     

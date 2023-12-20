@@ -87,7 +87,7 @@ class App extends Component {
               title: `${this.days[new Date(item.dt_txt).getDay()]} ${new Date(item.dt_txt).getDate()}/${new Date(item.dt_txt).getMonth() + 1}`,
               content: `Temperature: ${(item.main.temp - 273).toFixed(0)}°C`,
               info: `Weather: ${item.weather[0].description}`,
-              feel: `Feels like - ${item.main.feels_like}°C`
+              feel: `Feels like ${(item.main.feels_like-273).toFixed(0)}°C`
             };
           });
 
