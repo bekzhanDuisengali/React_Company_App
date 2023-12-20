@@ -7,7 +7,7 @@ class WeatherService{
     _apiKey5 = '40d6ae0424972e3f673fe79881c8a75c';
     _apiKey6 = '902d136d302c573035f07b3f4db17ea7';
     _apiKey7 = 'ca8b8eada0a4f94c6281c4caa6938bd1';
-    
+    // Запасные ключи для Апишки
     getResourse = async(url) =>{
         let res = await fetch(url);
         if(!res.ok){
